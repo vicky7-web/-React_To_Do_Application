@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="b.css">
+</head>
+<body>
+    <div class="container">
+      <div class="Jumbotron">
+          <h1 class="text-center">Todo List App</h1>
+      </div>
+    </div>
+    <div class="container-1">
+      <div class="Jumbotron-1">
+        <form id="add-task-form">
+            <input type="text" id="task-input" placeholder="Add a new task"><br><br>
+            <button class="btn btn-primary" id="add-task-btn">Add Task</button>
+
+        </form>
+            </div>
+  </div>
+  <div class="container-2">
+      <div class="Jumbotron-2">
+        <ul id="task-list" class="list-group">
+            <!-- tasks will be rendered here -->
+        </ul>
+
+</div>
+</div>
+    <script src="c.js"></script>
+
+    <div class="modal fade" id="edit-task-modal" tabindex="-1" role="dialog" aria-labelledby="editTaskModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="editTaskModalLabel">Edit Task</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
+                  </div>
+                  <div class="modal-body">
+                      <input type="text" id="edit-task-input" placeholder="Edit task">
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary" id="save-edit-btn">Save Changes</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+</body>
+</html>

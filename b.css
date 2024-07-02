@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6676D2;
+}
+
+.container {
+    border-radius: 30px;
+    font-family: Fantasy;
+    color: #AB47BC;
+    font-weight: bolder;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container-1 {
+  background-color: #455A64;
+  border-radius: 30px;
+    font-family: Serif;
+    font-weight: bolder;
+    max-width: 600px;
+    margin: 40px auto;
+    line-height: 2.2;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.container-2 {
+    font-family: Serif;
+    border-radius: 50px;
+    font-weight: bolder;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+#task-list {
+    margin-top: 10px;
+}
+
+.list-group-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color:white;
+    background-color: #3E294D;
+  }
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.list-group-item:hover {
+    background-color:#6D6D6D;
+}
+
+.delete-btn {
+   font-weight:bolder;
+   background-color: black;
+   color: white;
+    color: red;
+    float: right;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.btn btn-primary{
+  border-radius: 30px;
+  
+}
